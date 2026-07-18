@@ -1,14 +1,12 @@
-# InsurMinds — Grupo
+# Alpha Agents
 
-Repositório de trabalho dos desafios do programa InsurMinds.
-
-> Nome provisório do repositório. Após a definição do nome do grupo, o repositório pode ser renomeado sem alterar o histórico do Git.
+Repositório de trabalho dos desafios do programa InsurMinds I2A2.
 
 ## Integrantes e responsabilidades
 
 | Integrante | Responsabilidade principal |
 |---|---|
-| Vitor | Coordenação técnica, estrutura do projeto, pipeline, integração, Random Forest, submissão e entrega |
+| Vitor | Estrutura do projeto, pipeline, integração, Random Forest, submissão e entrega |
 | Vilela | EDA, tratamento dos dados, engenharia de atributos, Regressão Logística e comparação dos modelos |
 | Wagner | Requisitos, interpretação dos resultados, documentação, validação funcional e visão de seguros |
 
@@ -49,9 +47,8 @@ Nenhum integrante deve desenvolver diretamente na `main`.
 - `feat:` nova funcionalidade
 - `fix:` correção
 - `docs:` documentação
-- `refactor:` reorganização sem mudança funcional
 - `test:` testes
-- `chore:` configuração e manutenção
+- `conf:` configuração e manutenção
 
 Exemplos:
 
