@@ -48,7 +48,7 @@ Nenhum integrante deve desenvolver diretamente na `main`.
 - `fix:` correção
 - `docs:` documentação
 - `test:` testes
-- `conf:` configuração e manutenção
+- `chore:` configuração e manutenção
 
 Exemplos:
 
