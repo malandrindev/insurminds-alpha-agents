@@ -91,7 +91,7 @@ data/raw/test.csv
 ## Estrutura
 
 ```text
-insurminds_grupo_starter/
+insurminds_grupo_alpha-agents/
 ├── data/
 │   ├── raw/
 │   └── processed/
