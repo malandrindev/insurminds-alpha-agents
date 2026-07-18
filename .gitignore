@@ -1,4 +1,6 @@
 .env
+.env.*
+!.env.example
 .venv/
 venv/
 __pycache__/
@@ -7,14 +9,31 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Arquivos temporários de revisão local
+git-info.txt
+estrutura-local.txt
+insurminds-review.zip
+
 # Dados originais e processados
-data/raw/*.csv
-data/processed/*
+data/raw/*
 !data/raw/.gitkeep
+data/processed/*
 !data/processed/.gitkeep
 
-# Saídas
-outputs/submission/*.csv
-outputs/figures/*
+
+# Notebooks de terceiros: registrar links em docs/referencias.md
+notebooks/references/*.ipynb
+!notebooks/references/.gitkeep
+
+# Artefatos finais versionados de forma controlada
+outputs/submission/*
 !outputs/submission/.gitkeep
+!outputs/submission/submission.csv
+
+outputs/figures/*
 !outputs/figures/.gitkeep
+!outputs/figures/*.png
+
+outputs/evidencias/*
+!outputs/evidencias/.gitkeep
+!outputs/evidencias/*.png
