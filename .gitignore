@@ -1,0 +1,20 @@
+.env
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Dados originais e processados
+data/raw/*.csv
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Saídas
+outputs/submission/*.csv
+outputs/figures/*
+!outputs/submission/.gitkeep
+!outputs/figures/.gitkeep
